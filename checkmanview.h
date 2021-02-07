@@ -19,6 +19,9 @@ public:
     explicit checkmanview(QWidget *parent = nullptr);
     ~checkmanview();
 
+private slots:
+    void on_tabWidget_tabBarClicked(int index);
+
 private:
     Ui::checkmanview *ui;
     deviceview *dev_v = new deviceview;

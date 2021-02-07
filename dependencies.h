@@ -5,4 +5,7 @@
 
 #include <QString>
 #include <QObject>
+#include <QDebug>
+#include <QMessageBox>
 #include "database.h"
+

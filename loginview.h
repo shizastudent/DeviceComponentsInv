@@ -23,7 +23,9 @@ private slots:
 
 private:
     Ui::loginview *ui;
-    database *db_m=new database;
+    QSqlDatabase db1 = QSqlDatabase::database();
+    QSqlTableModel *model = new QSqlTableModel(this,db1);
+
 };
 
 #endif // LOGINVIEW_H
