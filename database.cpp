@@ -11,7 +11,7 @@ bool database::openConnection(){
     db.setHostName("192.168.0.2");
     db.setDatabaseName("mydb");
     db.setUserName("test");
-    db.setPassword("Shoroh123");
+    db.setPassword("test");
     return db.open();
 }
 
